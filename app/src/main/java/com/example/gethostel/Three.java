@@ -12,10 +12,10 @@ public class Three extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_three);
 
-        Intent intent = getIntent();
-        String x = intent.getStringExtra(homepage.triple);
-        TextView host = findViewById(R.id.name);
-        host.setText(""+x);
+//        Intent intent = getIntent();
+//        String x = intent.getStringExtra(homepage.triple);
+//        TextView host = findViewById(R.id.name);
+//        host.setText(""+x);
 
 
 
