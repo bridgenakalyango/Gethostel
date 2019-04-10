@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gethostel">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -9,8 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BottomView"></activity>
-        <activity android:name=".Three" />
+        <activity android:name=".Golf"></activity>
+        <activity android:name=".Beco" />
+        <activity android:name=".Mark" />
+        <activity android:name=".Triple" />
+        <activity android:name=".Contact" />
+        <activity android:name=".BottomView" />
         <activity android:name=".homepage" />
         <activity android:name=".MainActivity">
             <intent-filter>
